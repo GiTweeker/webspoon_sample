@@ -1,5 +1,10 @@
 #  Coding Challenge
 
+TDD Implemention:
+```sh
+run methods in com.example.webspoon.demoquestion.DemoquestionApplicationTests
+```
+
 ## Assumptions
 
 - Every request to add recipe overwrites already stored recipe
