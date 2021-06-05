@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /snippets
+
+
+app:
+  snippets:
+    recipe:
+      expiration:
+        added:
+          seconds: 30
