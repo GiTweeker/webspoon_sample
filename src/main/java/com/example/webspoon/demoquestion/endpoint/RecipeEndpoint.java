@@ -24,6 +24,7 @@ public class RecipeEndpoint {
     @Value("${app.snippets.recipe.expiration.added.seconds:30}")
     Integer defaultTimeForExpiration;
 
+
     public RecipeEndpoint(RecipeService recipeService) {
         this.recipeService = recipeService;
     }

@@ -11,11 +11,11 @@ import javax.validation.constraints.NotNull;
 @Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class AddRecipeRq {
-    @NotBlank
+    @NotBlank(message = "Recipe Name is compulsory.")
     String name;
-    @NotNull
+    @NotNull(message = "Include expires in (seconds)")
     @JsonProperty("expires_in")
     Integer expiresIn;
-    @NotBlank
+    @NotBlank(message = "Please include a snippet")
     String snippet;
 }
