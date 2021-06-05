@@ -95,6 +95,7 @@ public class RecipeEndpoint {
     }
 
     private String getBaseUrl(HttpServletRequest req) {
-        return req.getScheme() + "://" + req.getServerName() + ":" + req.getServerPort() + req.getContextPath();
+        return req.getScheme() + "://" + req.getServerName()
+                + (req.getServerPort() == 80 ? "" : ":" + req.getServerPort()  )+ req.getContextPath();
     }
 }

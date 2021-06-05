@@ -27,7 +27,7 @@ public class AddRecipeResp {
         this.url  = String.format("%s/%s",url,recipePath);
         this.name = recipe.getName();
         this.likes = recipe.getLikes();
-        this.snippet = recipe.getName();
+        this.snippet = recipe.getSnippet();
         this.expiresAt = recipe.getExpiresAt();
     }
 
