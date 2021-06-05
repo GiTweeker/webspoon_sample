@@ -3,6 +3,7 @@
 TDD Implemention:
 ```sh
 run methods in com.example.webspoon.demoquestion.DemoquestionApplicationTests
+mvn test
 ```
 
 ## Assumptions
